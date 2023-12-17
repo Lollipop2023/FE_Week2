@@ -1,0 +1,121 @@
+/* Body seemsa great place to start just to tie everything together
+in a basic design before getting down to the nitty gritty stuff. */
+body {
+    background-color: rgba(55, 192, 220, 0.968);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    
+}
+/* easiest thing I could think of across all pages to make look alike. 
+headers...simple enough...I love things that make my life easier. */
+h1 {
+    font-family: sans-serif;
+    font-size: 3.0rem;
+    color: #0b2261;
+    text-shadow:hsl(right black 3 100% 0.6);
+    text-align: center;
+    margin: 1rem
+    
+}
+ 
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem
+
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #b87e12fe;
+}
+
+
+
+#info-para {
+    font-size: .9rem;
+    font-style: bold;
+    font-family:arial
+}
+/* the table, not quite what I imagined, but by happy circumstance
+I liked what popped up.So for now this is ok for me. */
+table, th, td {
+  border: 0.5rem solid; 
+  width: 100%;
+  border-color:rgb(219, 112, 25);
+  border-collapse: collapse;
+}
+/* my cities...so many ideas, so little time, 
+and the dang navbar appearance!Hope I get faster soon so I can 
+address these little beauties. */
+.cities {
+  font-family:impact;
+  color: rgb(219, 112, 25);
+  font-style: bold;
+  font-size: 1.70rem;
+
+}
+/* God bless my little submit button. The only element that did what I wanted, when I wanted! */
+.submit {
+  color:rgb(0, 0, 0);
+  background-color:rgb(217, 171, 54)
+}
+
+/* the appearance section made my head hurt, but awesome learning opportunity! 
+I have cut, copied, pasted, deleted and edited this portion more than I think I 
+have ever typed in my entire life. I had big dreams for these pages, this section
+took all my extra time this week. You get what you get, lol.*/
+.appearance {
+        /* The image used in the last version was moved here to see if I can build on it instead of above it. */
+        background-image: url(https://www.railway-technology.com/wp-content/uploads/sites/13/2023/02/Image-2-Amtraks-Airo-Passenger-Train.jpeg);
+        
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;      
+        position: relative;
+      }
+
+           
+      /* Had to create a container and then place the navbar container inside the image */
+      .container {
+        display:flex;
+        justify-content: flex-end;
+        position: center;
+        margin: 200px 0 0 0;
+        width: 100%;
+      }
+      
+      /* The navbar */
+      .topnav {
+        
+        overflow: hidden;
+        background-color: none;
+      }
+      
+      /* navbar links */
+      .topnav a {
+         
+        gap: 1.5rem;
+        color: #c6181b;
+        font-family:Arial, Helvetica, sans-serif;
+        padding: 14px 12px;
+        gap: 10px;
+        text-decoration: none;
+        font-size: 1.7rem;
+      }
+      /* hover feature because I am feeling like a masochist today, why not*/
+      .topnav a:hover {
+            color: rgb(181, 222, 44);
+      }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+
+
+    
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Tickets</title>
+</head>
+<body>
+    
+    <div class="appearance">
+        <div class="greeting">
+            <h1>Passenger Ticket Information</h1>
+        </div>
+        <div class="container">   
+            <div class="topnav">
+                <a href="Week2_home.html">Home</a> 
+                <a href="Week2_schedule.html">Destinations and Pricing</a>
+                <a href="Week2_Tickets.html">Tickets</a>
+            </div>    
+        </div>
+    </div>
+    <p>
+        
+        
+        <form>
+            
+            <h3>Traveller:</h3><br><br>
+            <div>    
+                <input type="text" name="FirstName" placeholder="First Name"><br>
+                <input type="text" name="LastName" placeholder="Last Name"><br><br>
+                <input type="text" name="date" placeholder="Travel Date"><br><br>
+            </div>
+            
+            <h3>Final destination:</h3><br><br>
+            <div>
+                <input type="radio" Name="city" Value="La Grande, OR"> La Grande, OR <br>
+                <input type="radio" Name="city" Value="Ontario, OR"> Ontario, OR <br>
+                <input type="radio" Name="city" Value="Mountain Home, ID"> Mountain Home, ID <br>
+                <input type="radio" Name="city" Value="Burley, ID"> Burley, ID <br>
+                <input type="radio" Name="city" Value="Pocatello, ID"> Pocatello, ID <br>
+                <input type="radio" Name="city" Value="Green River, WY"> Green River, WY <br><br>
+            </div>
+            <div>    
+                <h3>Travel Time:</h3><br><br>
+                <div class="East">
+                    <h4>Eastbound Train departs:</h4><br>
+
+                    <input type="radio" Name="time" Value="0700"> 7:00am <br>
+                    <input type="radio" Name="time" Value="0900"> 9:00am <br>
+                    <input type="radio" Name="time" Value="1100"> 11:00am <br>
+                    <input type="radio" Name="time" Value="1300"> 1:00pm <br>
+                    <input type="radio" Name="time" Value="1500"> 3:00pm <br>
+                    <input type="radio" Name="time" Value="1700"> 5:00pm <br>
+                    <input type="radio" Name="time" Value="1900"> 7:00pm <br>
+                    <input type="radio" Name="time" Value="2100"> 9:00pm <br><br>
+                </div>
+                <div class="West">
+                    <h4>Westbound Train departs:</h4><br>
+                    <input type="radio" Name="time" Value="0800"> 8:00am <br>
+                    <input type="radio" Name="time" Value="1030"> 10:30am <br>
+                    <input type="radio" Name="time" Value="1300"> 1:00pm <br>
+                    <input type="radio" Name="time" Value="1530"> 3:30pm <br>
+                    <input type="radio" Name="time" Value="1800"> 6:00pm <br>
+                    <input type="radio" Name="time" Value="2030"> 8:30pm <br>
+                    <input type="radio" Name="time" Value="2300"> 11:00pm <br><br>
+                </div>
+                <div class="purchase">
+                    <input class=submit type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </p>
+    
+</body>
+</html>
